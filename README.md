@@ -1,6 +1,6 @@
 # hubot-domain-me
 
-[![Build Status](https://travis-ci.org/sprngr/hubot-domain-me.png)](https://travis-ci.org/sprngr/hubot-domain-me)
+[![npm version](https://badge.fury.io/js/hubot-domain-me.svg)](http://badge.fury.io/js/hubot-domain-me) [![Build Status](https://travis-ci.org/sprngr/hubot-domain-me.png)](https://travis-ci.org/sprngr/hubot-domain-me)
 
 Quintessential package for generating dumb domain names, based off dumb.domains
 
