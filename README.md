@@ -10,6 +10,10 @@ Quintessential package for generating dumb domain names, based off dumb.domains
 
 ## Changelog
 
+### v1.0.1
+* Changed the way the domain string is built
+* Had internal conflicts about adding the protocol to the domain, too risky with unfurling
+
 ### v1.0.0
 * Inital release
 * Generates dumb domains from a dictionary of suggested names and gTLDs
