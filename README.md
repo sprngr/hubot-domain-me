@@ -1,10 +1,10 @@
 # hubot-domain-me
 
+[![Build Status](https://travis-ci.org/sprngr/hubot-domain-me.png)](https://travis-ci.org/sprngr/hubot-domain-me)
+
 Quintessential package for generating dumb domain names, based off dumb.domains
 
 See [`src/domain-me.coffee`](src/domain-me.coffee) for full documentation.
-
-[![Build Status](https://travis-ci.org/sprngr/hubot-domain-me.png)](https://travis-ci.org/sprngr/hubot-domain-me)
 
 ## Installation
 
