@@ -1,0 +1,141 @@
+# Description:
+#   Quintesential package for generating dumb domain names, based off dumb.domains
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot domain me - returns a random domain name
+#
+# Author:
+#  sprngr
+
+tlds = [
+    "academy",
+    "agency",
+    "bargains",
+    "berlin",
+    "bike",
+    "blue",
+    "boutique",
+    "build",
+    "builders",
+    "buzz",
+    "cab",
+    "camera",
+    "camp",
+    "careers",
+    "center",
+    "ceo",
+    "cheap",
+    "clothing",
+    "club",
+    "codes",
+    "coffee",
+    "company",
+    "computer",
+    "construction",
+    "contractors",
+    "cool",
+    "diamonds",
+    "directory",
+    "domains",
+    "education",
+    "email",
+    "enterprises",
+    "equipment",
+    "estate",
+    "farm",
+    "florist",
+    "gallery",
+    "gift",
+    "glass",
+    "graphics",
+    "guitars",
+    "guru",
+    "holdings",
+    "holiday",
+    "house",
+    "institute",
+    "international",
+    "kim",
+    "kitchen",
+    "kiwi",
+    "land",
+    "lighting",
+    "limo",
+    "link",
+    "management",
+    "marketing",
+    "menu",
+    "onl",
+    "photo",
+    "photography",
+    "photos",
+    "pics",
+    "pink",
+    "plumbing",
+    "qpon",
+    "recipes",
+    "red",
+    "repair",
+    "rich",
+    "ruhr",
+    "sexy",
+    "shiksha",
+    "shoes",
+    "singles",
+    "solar",
+    "solutions",
+    "support",
+    "systems",
+    "tattoo",
+    "technology",
+    "tips",
+    "today",
+    "training",
+    "uno",
+    "ventures",
+    "viajes",
+    "voyage",
+    "watch",
+    "zone"
+]
+
+suggestions = [
+    "butt",
+    "fart",
+    "man",
+    "lady",
+    "bum",
+    "sploosh",
+    "penis",
+    "boob",
+    "boobies",
+    "sexy",
+    "frisky",
+    "balls",
+    "crap",
+    "pants",
+    "literally",
+    "such",
+    "doodle",
+    "tit",
+    "wank",
+    "shitty",
+    "wow",
+    "very",
+    "crooked",
+    "party",
+    "drug",
+    "pirate",
+    "slippery"
+]
+
+module.exports = (robot) ->
+
+    robot.respond /domain( me)?$/, (msg) ->
+        msg.send msg.random(suggestions) + "." + msg.random(tlds)

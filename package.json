@@ -1,0 +1,39 @@
+{
+  "name": "hubot-domain-me",
+  "description": "Quintessential package for generating dumb domain names, based off dumb.domains",
+  "version": "1.0.0",
+  "author": "Michael Springer <mike@sprngr.me>",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "domains"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sprngr/hubot-domain-me.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/sprngr/hubot-domain-me/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}
