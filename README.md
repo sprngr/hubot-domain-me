@@ -1,12 +1,27 @@
-# Hubot Domain Me
+# hubot-domain-me
 
 Quintessential package for generating dumb domain names, based off dumb.domains
 
+See [`src/domain-me.coffee`](src/domain-me.coffee) for full documentation.
+
 [![Build Status](https://travis-ci.org/sprngr/hubot-domain-me.png)](https://travis-ci.org/sprngr/hubot-domain-me)
 
-## Sample
-![image](example.png)
+## Installation
 
+In your hubot project repo, run:
+
+`npm install hubot-domain-me --save`
+
+Then add **hubot-domain-me** to your `external-scripts.json`:
+
+```json
+[
+  "hubot-domain-me"
+]
+```
+
+## Sample Interaction
+![image](example.png)
 
 ## Changelog
 
