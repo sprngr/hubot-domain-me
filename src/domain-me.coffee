@@ -138,4 +138,4 @@ suggestions = [
 module.exports = (robot) ->
 
     robot.respond /domain( me)?$/, (msg) ->
-        msg.send msg.random(suggestions) + "." + msg.random(tlds)
+        msg.send "#{msg.random suggestions}.#{msg.random tlds}"
