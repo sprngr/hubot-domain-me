@@ -1,14 +1,15 @@
 {
   "name": "hubot-domain-me",
   "description": "Quintessential package for generating dumb domain names, based off dumb.domains",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Michael Springer <mike@sprngr.me>",
   "license": "MIT",
 
   "keywords": [
     "hubot",
     "hubot-scripts",
-    "domains"
+    "domains",
+    "funny"
   ],
 
   "repository": {
@@ -21,7 +22,6 @@
   },
 
   "dependencies": {
-    "coffee-script": "~1.6"
   },
 
   "devDependencies": {
