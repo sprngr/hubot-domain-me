@@ -28,7 +28,8 @@
     "mocha": "*",
     "chai": "*",
     "sinon-chai": "*",
-    "sinon": "*"
+    "sinon": "*",
+    "coffee-script": "~1.6"
   },
 
   "main": "index.coffee",
