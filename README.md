@@ -25,6 +25,9 @@ Then add **hubot-domain-me** to your `external-scripts.json`:
 
 ## Changelog
 
+### v1.0.4
+* [clownpenis.fart](http://vimeo.com/82393638)
+
 ### v1.0.3
 * Updated the suggestions list.
 * I really was just adjusting keywords in package.json and needed an excuse to push.
