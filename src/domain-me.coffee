@@ -5,7 +5,7 @@
 #   None
 #
 # Configuration:
-#   None
+#   HUBOT_DOMAIN_ME_SFW - set to TRUE if you want only safe for work words used.
 #
 # Commands:
 #   hubot domain me - returns a random domain name
