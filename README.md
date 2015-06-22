@@ -21,7 +21,7 @@ Then add **hubot-domain-me** to your `external-scripts.json`:
 ```
 ## Configuration
 
-`HUBOT_DOMAIN_ME_SFW` - An optional flag if you want all output to only use the clean word dictionary. Set to TRUE to enable.
+`HUBOT_DOMAIN_ME_SFW` - An optional flag if you want all output to only use the clean word dictionary. Set to `TRUE` to enable.
 
 ## Sample Interaction
 ![image](example.png)
@@ -29,9 +29,9 @@ Then add **hubot-domain-me** to your `external-scripts.json`:
 ## Changelog
 
 ### v1.1.0
-* Splits the dictionary into clean and nsfw, defaults to nsfw
-* Word list is configurable via HUBOT_DOMAIN_ME_SFW environment variable
-* The code is considerably cleaner
+* Splits the dictionary into clean and nsfw, defaults to nsfw.
+* Dictionary is configurable via `HUBOT_DOMAIN_ME_SFW` environment variable.
+* The code is considerably cleaner.
 
 ### v1.0.4
 * [clownpenis.fart](http://vimeo.com/82393638)
