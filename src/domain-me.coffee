@@ -16,7 +16,7 @@
 tlds = require('./dict/tlds.json')
 words = require('./dict/words-clean.json')
 
-unless process.env.process.env.HUBOT_DOMAIN_ME_SFW?
+unless process.env.HUBOT_DOMAIN_ME_SFW?
   words = words.concat(require('./dict/words-nsfw.json'))
 
 module.exports = (robot) ->
