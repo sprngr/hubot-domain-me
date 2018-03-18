@@ -1,10 +1,11 @@
 # hubot-domain-me
+> Quintessential package for generating dumb domain names, originally based off dumb.domains
 
-[![npm version](https://badge.fury.io/js/hubot-domain-me.svg)](http://badge.fury.io/js/hubot-domain-me) [![Build Status](https://travis-ci.org/sprngr/hubot-domain-me.png)](https://travis-ci.org/sprngr/hubot-domain-me)
+[![Travis](https://img.shields.io/travis/sprngr/hubot-domain-me.svg?style=for-the-badge)](https://travis-ci.org/sprngr/hubot-domain-me)
+[![npm](https://img.shields.io/npm/v/hubot-domain-me.svg?style=for-the-badge)](https://www.npmjs.com/package/hubot-domain-me)
+![From Pittsburgh With Love](https://img.shields.io/badge/from%20pittsburgh%20with-%E2%9D%A4-yellow.svg?style=for-the-badge)
 
-Quintessential package for generating dumb domain names, based off dumb.domains
-
-See [`src/domain-me.coffee`](src/domain-me.coffee) for full documentation.
+See [`src/domain-me.js`](src/domain-me.js) for full documentation.
 
 ## Installation
 
@@ -26,29 +27,5 @@ Then add **hubot-domain-me** to your `external-scripts.json`:
 ## Sample Interaction
 ![image](example.png)
 
-## Changelog
-
-### v1.1.0
-* Splits the dictionary into clean and nsfw, defaults to nsfw.
-* Dictionary is configurable via `HUBOT_DOMAIN_ME_SFW` environment variable.
-* The code is considerably cleaner.
-
-### v1.0.4
-* [clownpenis.fart](http://vimeo.com/82393638)
-
-### v1.0.3
-* Updated the suggestions list.
-* I really was just adjusting keywords in package.json and needed an excuse to push.
-
-### v1.0.2
-* Added 195 gTLDs to the list, I wish I was making some of these up.
-* Broke out the dictionary arrays into separate files. I need to add more words to the suggestion list.
-
-### v1.0.1
-* Changed the way the domain string is built.
-* Had internal conflicts about adding the protocol to the domain, too risky with unfurling.
-
-### v1.0.0
-* Inital release
-* Generates dumb domains from a dictionary of suggested names and gTLDs.
-* Totally didn't rip contents from dumb.domains.
+## License
+MIT &copy; [Michael Springer](https://github.com/sprngr) 2018
