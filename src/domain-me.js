@@ -31,7 +31,7 @@ function assembleDictionary() {
     if (process.env.HUBOT_DOMAIN_ME_SFW == null) {
         const nsfwDictionaries = [
             require('./dict/original_words.json').nsfwWords,
-            require('.dict/states_of_drunkenness.json').states_of_drunkenness
+            require('./dict/states_of_drunkenness.json').states_of_drunkenness
         ];
         dictionaries.concat(nsfwDictionaries);
     }
