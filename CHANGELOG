@@ -1,5 +1,8 @@
 ### [Unreleased]
-- Decaffeinated
+* Decaffeinated
+* Updated dictionary for tlds with data from https://data.iana.org/TLD/tlds-alpha-by-domain.txt
+* Adds dictionaries for nouns, adj, verbs, etc from https://github.com/dariusk/corpora
+* Restructures dictionary format to follow suit
 
 ### v1.1.0
 * Splits the dictionary into clean and nsfw, defaults to nsfw.

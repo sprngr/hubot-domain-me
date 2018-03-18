@@ -7,6 +7,16 @@
 
 See [`src/domain-me.js`](src/domain-me.js) for full documentation.
 
+Be sure to double check any dictionaries in use before installing for words your team may deem offensive:
+- Internet tlds [`src/dict/tlds.json`](src/dict/tlds.json)
+- Original list of semi-humorous words [`src/dict/original_words.json`](src/dict/original_words.json)
+- Adjectives [`src/dict/adjs.json`](src/dict/adjs.json)
+- Nouns [`src/dict/nouns.json`](src/dict/nouns.json)
+- Personal Nouns [`src/dict/personal_nouns.json`](src/dict/personal_nouns.json)
+- States of Drunkenness [`src/dict/states_of_drunkenness.json`](src/dict/states_of_drunkenness.json)
+
+At this time one list from the original set and the States of Drunkenness are only enabled when `HUBOT_DOMAIN_ME_SFW` is `FALSE`.
+
 ## Installation
 
 In your hubot project repo, run:
@@ -22,7 +32,7 @@ Then add **hubot-domain-me** to your `external-scripts.json`:
 ```
 ## Configuration
 
-`HUBOT_DOMAIN_ME_SFW` - An optional flag if you want all output to only use the clean word dictionary. Set to `TRUE` to enable.
+`HUBOT_DOMAIN_ME_SFW` - Default `FALSE` - An optional flag if you want all output to only use the clean word dictionaries. Set to `TRUE` to enable.
 
 ## Sample Interaction
 ![image](example.png)
