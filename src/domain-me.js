@@ -34,7 +34,7 @@ function assembleDictionary() {
             require('./dict/states_of_drunkenness.json').states_of_drunkenness
         ];
 
-        dictionary = dictionary.concat.apply([], nsfwDictionaries);
+        dictionary = [].concat.apply(dictionary, nsfwDictionaries);
     }
 
     return dictionary;

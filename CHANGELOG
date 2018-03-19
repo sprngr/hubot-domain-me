@@ -1,5 +1,8 @@
 ### [Unreleased]
 
+### v2.0.2
+* Fix for NSFW flag causing the entire dictionary to be overwritten
+
 ### v2.0.1
 * Fix dictionary being undefined because I didn't concat arrays right
 
