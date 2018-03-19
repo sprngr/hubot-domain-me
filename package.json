@@ -1,7 +1,7 @@
 {
   "name": "hubot-domain-me",
   "description": "Quintessential package for generating dumb domain names, originally based off dumb.domains",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "Michael Springer <mike@sprngr.com>",
   "license": "MIT",
   "keywords": [
