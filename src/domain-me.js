@@ -26,19 +26,16 @@ function assembleDictionary() {
         require('./dict/nouns.json').nouns,
         require('./dict/personal_nouns.json').personalNouns,
     ];
-    let dictionary = [];
+    let dictionary = [].concat.apply([], dictionaries);
 
     if (process.env.HUBOT_DOMAIN_ME_SFW == null) {
         const nsfwDictionaries = [
             require('./dict/original_words.json').nsfwWords,
             require('./dict/states_of_drunkenness.json').states_of_drunkenness
         ];
-        dictionaries.concat(nsfwDictionaries);
-    }
 
-    dictionaries.forEach((list) => {
-        dictionary.concat(list);
-    })
+        dictionary = dictionary.concat.apply([], nsfwDictionaries);
+    }
 
     return dictionary;
 }
