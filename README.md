@@ -1,13 +1,14 @@
 # hubot-domain-me
 > Quintessential package for generating dumb domain names, originally based off dumb.domains
 
-[![Travis](https://img.shields.io/travis/sprngr/hubot-domain-me.svg?style=for-the-badge)](https://travis-ci.org/sprngr/hubot-domain-me)
-[![npm](https://img.shields.io/npm/v/hubot-domain-me.svg?style=for-the-badge)](https://www.npmjs.com/package/hubot-domain-me)
-![From Pittsburgh With Love](https://img.shields.io/badge/from%20pittsburgh%20with-%E2%9D%A4-yellow.svg?style=for-the-badge)
+[![Travis](https://img.shields.io/travis/sprngr/hubot-domain-me.svg)](https://travis-ci.org/sprngr/hubot-domain-me)
+[![npm](https://img.shields.io/npm/v/hubot-domain-me.svg)](https://www.npmjs.com/package/hubot-domain-me)
+![From Pittsburgh With Love](https://img.shields.io/badge/from%20pittsburgh%20with-%E2%9D%A4-yellow.svg)
 
 See [`src/domain-me.js`](src/domain-me.js) for full documentation.
 
 Be sure to double check any dictionaries in use before installing for words your team may deem offensive:
+
 - Internet tlds [`src/dict/tlds.json`](src/dict/tlds.json)
 - Original list of semi-humorous words [`src/dict/original_words.json`](src/dict/original_words.json)
 - Adjectives [`src/dict/adjs.json`](src/dict/adjs.json)
@@ -30,12 +31,15 @@ Then add **hubot-domain-me** to your `external-scripts.json`:
   "hubot-domain-me"
 ]
 ```
+
 ## Configuration
 
 `HUBOT_DOMAIN_ME_SFW` - Default `FALSE` - An optional flag if you want all output to only use the clean word dictionaries. Set to `TRUE` to enable.
 
 ## Sample Interaction
-![image](example.png)
+
+![image](media/example.png)
 
 ## License
-MIT &copy; [Michael Springer](https://github.com/sprngr) 2018
+
+MIT

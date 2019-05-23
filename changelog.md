@@ -1,4 +1,11 @@
-### [Unreleased]
+Change Log
+==========
+
+This project honours [Semantic Versioning](http://semver.org/).
+
+### v2.0.3
+* Fix dependency issue
+* Update repository organization + readme
 
 ### v2.0.2
 * Fix for NSFW flag causing the entire dictionary to be overwritten

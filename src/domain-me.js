@@ -1,4 +1,3 @@
-'use strict'
 // Description:
 //   Quintesential package for generating dumb domain names, originally based off dumb.domains
 //
@@ -13,6 +12,8 @@
 //
 // Author:
 //  sprngr
+
+'use strict';
 
 // Import and assemble dictionaries
 const tlds = require('./dict/tlds.json').tlds;
