@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "chai": "*",
-    "eslint": "^5.16.0",
+    "eslint": "^6.2.2",
     "mocha": "*",
     "sinon": "*",
     "sinon-chai": "*"
